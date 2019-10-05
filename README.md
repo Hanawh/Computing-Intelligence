@@ -1,6 +1,6 @@
 # Computing-Intelligence
 
-The Assignment of Computing Intellgence class in XMU
+The Assignments of Computing Intellgence class in XMU
 
 ## Assignment 1 : 分油问题
 
