@@ -76,7 +76,6 @@ int main(){
     OilQueue.push(rootOil);
     while(!OilQueue.empty()){
         OilState oil = OilQueue.front();
-        //cout<<"<"<<oil.x<<","<<oil.y<<","<<oil.z<<","<<oil.n<<">"<<endl;
         if(!Solution().isrepeat(oil)){
             arr.push_back(oil);
         }
@@ -92,7 +91,6 @@ int main(){
             break;
         }
     }
-    //cout<<pos<<endl;
 
     while(arr[pos].n != -1){
         result.push_back(arr[pos]);
