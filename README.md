@@ -32,3 +32,18 @@ The Assignments of Computing Intellgence class in XMU
 
 
 
+## Assignment 2 : 模拟退火算法解决TSP问题
+### 问题描述
+> 旅行推销员问题（英语：Travelling salesman problem, TSP）给定一系列城市和每对城市之间的距离，求解访问每一座城市一次并回到起始城市的最短回路。它是组合优化中的一个NP困难问题，在运筹学和理论计算机科学中非常重要。  
+
+### 模拟退火算法简介
+> 1982年,Kirkpatrick意识到固体退火算法与组合优化问题之间的类似性Metropolis等对孤立在恒定温度下达到热平衡的过程的模拟的启迪：把Metropolis准则引入优化过程中模拟退火算法（Simulated Annealing Algorithm，简称SA），源于对固体退火过程的模拟，采用Metropolis接受准则，并用一组称为冷却表的参数控制算法进程，使算法在多项式时间里给出一个近似最优解，并且可以大程度的跳出局部最优点找寻全局最优点。  
+
+### 算法设计
+- `coolingSchedule`用来存放相关参数
+- `GenerateNewPath`用2变换法来产生新的路径
+- `Metropolis`用来定义Metropolis准则
+
+
+
+
